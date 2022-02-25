@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*begin: share */
+
+.pd_24 {
+    padding-top: 24px;
+}
+
+.pd_16 {
+    padding-top: 16px;
+}
+
+.bot_na_16 {
+    bottom: -16px;
+}
+
+.bot_pos_6 {
+    bottom: 6px
+}
+
+.container {
+    width: 828px;
+    height: 675px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+/* end:share */
+
+.box {
+    width: 748px;
+    height: 591px;
+    padding: 48px 40px 36px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+}
+
+#box_left {
+    width: 354px;
+    height: 507px;
+}
+
+#logo_mini {
+    width: 75px;
+    height: 24px;
+}
+
+#box_left h1 {
+    padding-top: 16px;
+    height: 48px;
+}
+
+#box_left .form-field {
+    width: 354px;
+    height: 380px;
+}
+
+.in-focus-2 {
+    float: left;
+    position: relative;
+    width: 173px;
+    height: 32px;
+    margin: 2px;
+}
+
+#box_left .form-input {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 4px;
+    position: absolute;
+    padding: 6px 8px;
+    user-select: text;
+}
+
+.name .form-lable {
+    position: absolute;
+    left: 8px;
+    bottom: 6px;
+    user-select: none;
+    pointer-events: none;
+    transition: 0.3s ease;
+}
+
+.in-focus-1 {
+    float: left;
+    position: relative;
+    width: 350px;
+    height: 32px;
+    margin: 24px 2px 2px;
+}
+
+.in-focus-1 #user_name {
+    position: absolute;
+    height: 100%;
+    width: 253px;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.in-focus-1 #gmail {
+    position: absolute;
+    width: 102px;
+    right: 0;
+    border: 1px solid #ccc;
+    border-radius: 0 4px 4px 0;
+    border-left: none;
+    line-height: 30px;
+    user-select: none;
+    pointer-events: none;
+}
+
+.in-focus-1 .form-lable {
+    position: absolute;
+    left: 8px;
+    bottom: 6px;
+    transition: 0.3s ease;
+    user-select: none;
+    pointer-events: none;
+}
+
+#box_left #user_name:not(:placeholder-shown)+.form-lable,
+#box_left #user_name:focus+.form-lable,
+#box_left .input-name:not(:placeholder-shown)+.form-lable,
+#box_left .input-name:focus+.form-lable {
+    bottom: 24px;
+    left: 15px;
+    padding: 2px 5px;
+    display: inline-block;
+    background-color: #fff;
+    font-size: 12px;
+    color: rgb(0, 106, 220);
+}
+
+.pass .form-lable {
+    position: absolute;
+    left: 8px;
+    bottom: -17px;
+    user-select: none;
+    pointer-events: none;
+    transition: 0.3s ease;
+}
+
+.input-pass:not(:placeholder-shown)+.form-lable,
+.input-pass:focus+.form-lable {
+    bottom: 0px;
+    left: 15px;
+    padding: 2px 5px;
+    display: inline-block;
+    background-color: #fff;
+    font-size: 12px;
+    color: rgb(0, 106, 220);
+}
+
+.show {
+    float: left;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 8px;
+    left: -8px;
+}
+
+.show:hover {
+    background-color: lightgrey;
+}
+
+#box_right {
+    width: 295px;
+    height: 507px;
+    padding: 80px 0 0 48px;
+    text-align: center;
+}
+
+#log_next {
+    position: relative;
+    bottom: -60px;
+    left: -45px;
+    font-weight: 500;
+    width: 398px;
+}
+
+#log_next a {
+    text-decoration: none;
+    line-height: 30px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 4px;
+    margin-right: 54px;
+    color: rgb(48, 118, 221);
+}
+
+#log_next a:hover {
+    background-color: #e8f1ff;
+    color: rgb(6, 82, 197);
+}
+
+#log_next input {
+    margin-left: 102px;
+    padding: 6px 20px;
+    background-color: rgb(57, 111, 248);
+    font-weight: 500;
+    color: #fff;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+
+#log_next input:hover {
+    background-color: rgb(24, 101, 202);
+}
+
+#box_right img {
+    width: 244px;
+    height: 244px;
+}
